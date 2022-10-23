@@ -6,7 +6,7 @@ m = folium.Map(location=[37, 0],
            attr='My Data Attribution')
 
 
-geojson = r"/Users/pathaoltd/Desktop/python tasks/foliumProject/Sliced Dhaka By (Naim)/fullbd.geojson"
+geojson = r"/Users/xtz/Desktop/python tasks/foliumProject/Sliced Dhaka By (Naim)/fullbd.geojson"
 
 g = folium.GeoJson(
     geojson,
@@ -16,4 +16,4 @@ g = folium.GeoJson(
 folium.GeoJsonTooltip(fields=["NAME"]).add_to(g)
 
 
-m.save("/Users/pathaoltd/Desktop/python tasks/foliumProject/Sliced Dhaka By (Naim)/index1.html")
+m.save("/Users/xyz/Desktop/python tasks/foliumProject/Sliced Dhaka/index1.html")
